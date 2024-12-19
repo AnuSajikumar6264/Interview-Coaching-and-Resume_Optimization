@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <textarea name="user_input"></textarea>
+        <button type="submit">Ask</button>
+    </form>
+</body>
+</html>
